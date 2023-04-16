@@ -1,0 +1,46 @@
+.box1{
+    height: 600px;
+    width: 400px; 
+    border: solid rgb(218, 218, 218) 1px;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+}
+#title{
+    width: 197px;
+    height: 69px;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.riquadro1{
+    width: 300px;
+    height: 30px;
+    border: solid rgb(218, 218, 218) 1px;
+    border-radius: 3px;
+    color: grey;
+    position: absolute;
+    top: 120px;
+    left: 47px;
+}
+.riquadro2{
+    width: 300px;
+    height: 30px;
+    border: solid rgb(218, 218, 218) 1px;
+    border-radius: 3px;
+    color: grey;
+    position: absolute;
+    top: 160px;
+    left: 47px;
+}
+.accedi{
+    width: 308px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(23, 174, 255);
+    color: white;
+    border: solid white 1px;
+    position: absolute;
+    top: 210px;
+    left: 46px;
+}

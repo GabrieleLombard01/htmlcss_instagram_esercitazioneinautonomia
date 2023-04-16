@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="Instagram Web accesso registrazione">
+    <meta name="Author" content="Gabriele Lombardo">
+    <meta name="Description" content="Pagina di accesso/registrazione Instagram Web">
+    <meta name="Description" content="Simulazione">
+    <script language="javascript">
+        function controllo(){
+            var valore = document.myForm.txt.value;
+                if(valore=="Numero di telefono, nome utente o e-mail")
+                document.myForm.txt.value = "";}
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel ="icon" href ="img/favicon.png" type="image/png">
+    <title>Accesso · Instagram</title>
+    
+</head>
+<body>
+    <!--Login-->
+    <header>
+        <div class="box1">
+            <div>
+               <img id="title" src="img/title.png" alt="title">
+            <form name="myForm">
+                <input class="riquadro1" type="text" onClick="controllo()" value="Numero di telefono, nome utente o e-mail" name="txt">
+                <input class="riquadro2" type="password" name="key">
+                <input class="accedi" type="button" value="Accedi" >
+                </form> 
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>
