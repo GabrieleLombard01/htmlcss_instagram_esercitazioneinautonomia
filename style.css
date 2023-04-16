@@ -47,3 +47,8 @@
 .accedi:hover{
     background-color: rgb(47, 134, 255);
 }
+#line{
+    position: absolute;
+    top: 260px;
+    left: 63px;
+}
